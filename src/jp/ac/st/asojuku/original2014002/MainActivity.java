@@ -30,7 +30,7 @@ View.OnClickListener
 			}
 			etv.setText("");
 			break;
-		case R.id.btnMENTE:
+		case R.id.btnMAINTE_BACK:
 			intent = new Intent(MainActivity.this, MaintenanceActivity.class);
 			startActivity(intent);
 			break;
@@ -58,8 +58,8 @@ View.OnClickListener
 		Button btnTOUROKU = (Button)findViewById(R.id.btnTOUROKU);
 		btnTOUROKU.setOnClickListener(this);
 		super.onResume();
-		Button btnMENTE = (Button)findViewById(R.id.btnMENTE);
-		btnMENTE.setOnClickListener(this);
+		Button btnMAINTE_BACK = (Button)findViewById(R.id.btnMAINTE_BACK);
+		btnMAINTE_BACK.setOnClickListener(this);
 		super.onResume();
 		Button btnHITOKOTO = (Button)findViewById(R.id.btnHITOKOTO);
 		btnHITOKOTO.setOnClickListener(this);

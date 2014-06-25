@@ -48,7 +48,7 @@
                 android:text="登録" />
 
             <Button
-                android:id="@+id/btnMENTE"
+                android:id="@+id/btnMAINTE_BACK"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.55"
